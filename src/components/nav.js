@@ -6,7 +6,7 @@ const Menu = styled.nav`
   grid-row-start: 2;
   grid-row-end: 3;
   max-width: 960px;
-  margin: 20px auto;
+  margin: 20px auto 0 auto;
   width: 100%;
   align-items: center;
 
@@ -22,7 +22,7 @@ const Menu = styled.nav`
   }
 
   ul li {
-    margin: 0 35px;
+    margin: 0 30px;
   }
 
   ul li a {
@@ -46,9 +46,9 @@ const Nav = () => {
       <Menu>
         <hr />
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Über mich</a></li>
-          <li><a href="#">Methoden</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">Über mich</a></li>
+          <li><a href="/methods">Methoden</a></li>
           <li><a href="#">Indikationen</a></li>
           <li><a href="#">Behandlung</a></li>
           <li><a href="#">Kontakt</a></li>

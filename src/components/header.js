@@ -26,8 +26,7 @@ const Heading = styled.div`
   color: #161650;
 
   h1 {
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin: 0;
     font-weight: 400;
   }
 
