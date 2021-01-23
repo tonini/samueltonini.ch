@@ -38,7 +38,8 @@ module.exports = {
       options: {
         fonts: [
           `Cinzel`,
-          `Lora`
+          `Lora\:300,400,400i,700`,
+          `Ma Shan Zheng`
         ],
         display: 'swap'
       }

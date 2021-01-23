@@ -29,13 +29,14 @@ const Menu = styled.nav`
     text-decoration: none;
     font-family: Lora, serif;
     font-size: 11px;
-    color: #161650;
+    color: #555;
     letter-spacing: .2rem;
     text-transform: uppercase;
     font-weight: 600;
 
     &:hover {
-      color: #0FA0CE;
+      color: #000;
+      text-decoration: underline;
     }
   }
 
@@ -48,10 +49,11 @@ const Nav = () => {
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about">Über mich</a></li>
-          <li><a href="/methods">Methoden</a></li>
-          <li><a href="#">Indikationen</a></li>
-          <li><a href="#">Behandlung</a></li>
-          <li><a href="#">Kontakt</a></li>
+          {/* <li><a href="/methods">Methoden</a></li> */}
+          <li><a href="/therapie">Behandlung</a></li>
+          <li><a href="/indikationen">Indikationen</a></li>
+          <li><a href="/costs">Kosten</a></li>
+          <li><a href="/kontakt">Kontakt</a></li>
         </ul>
         <hr />
     </Menu>

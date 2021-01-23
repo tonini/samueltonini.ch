@@ -23,7 +23,7 @@ const Logo = styled.div`
 const Heading = styled.div`
   margin: 0;
   font-family: Cinzel;
-  color: #161650;
+  color: #555;
 
   h1 {
     margin: 0;
@@ -46,7 +46,7 @@ const Header = ({ siteTitle}) => {
 
   const data = useStaticQuery(graphql`
   query {
-    file(relativePath: { eq: "logo.png" }) {
+    file(relativePath: { eq: "logo_hex_555555.png" }) {
       childImageSharp {
         fixed(width: 169, height: 164) {
           ...GatsbyImageSharpFixed
@@ -64,7 +64,7 @@ const Header = ({ siteTitle}) => {
       </Logo>
       <Heading>
         <h1>Samuel Tonini</h1>
-        <h2>Therapeut der Chinesischen Medizin</h2>
+        <h2>Praxis für Chinesischen Medizin</h2>
       </Heading>
     </Inner>
   </InnerHeader>

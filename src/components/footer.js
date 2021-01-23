@@ -6,7 +6,7 @@ const FooterInner = styled.footer`
   grid-row-start: 2;
   grid-row-end: 3;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 25px auto;
   text-align: center;
   width: 100%;
   border-width: 0;
@@ -14,13 +14,17 @@ const FooterInner = styled.footer`
   padding: 20px 0;
   font-size: 14px;
   color: #bfbfbf;
+
+  a {
+    color: #bfbfbf;
+  }
 `
 
 const Footer = () => {
   return(
     <FooterInner>
       <p>
-      Copyright © {new Date().getFullYear()} Samuel Tonini
+      © {new Date().getFullYear()} Samuel Tonini | <a href="/impressum">Impressum</a>
       </p>  
     </FooterInner>
   )
