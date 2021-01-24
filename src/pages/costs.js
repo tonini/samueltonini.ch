@@ -27,7 +27,7 @@ const CostsPage = () => (
         <p>Ich verfüge über folgende Mitgliedschaften/Bewilligungen:</p>
         <ul>
           <li>
-            <a href="https://www.emr.ch/partner" target="_blank">
+            <a href="https://www.emr.ch/partner" target="_blank" rel="noreferrer">
               EMR
             </a>{" "}
             (Erfahrungsmedizinisches Register)

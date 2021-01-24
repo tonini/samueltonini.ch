@@ -43,7 +43,20 @@ const AboutPage = () => {
             grossen Schatz an Wissen zurückzugreifen und kontinuierlich
             weiterzulernen.{" "}
           </p>
-          <br />
+          <p class="center">
+            <span class="chinese-text">"百病生于气也" </span>
+            <br />
+            <span class="from">
+              (Huang Di Nei Jing - Su Wen,{" "}
+              <a
+                href="https://ctext.org/dictionary.pl?if=en&id=82478"
+                rel="noreferrer"
+              >
+                Kapitel 39
+              </a>
+              )
+            </span>
+          </p>
 
           <h2 class="left">Ausbildung</h2>
           <ul>
@@ -55,14 +68,14 @@ const AboutPage = () => {
           <ul>
             <li>
               Tanzlehrer an der{" "}
-              <a href="http://bounceurban.ch/" target="_blank">
+              <a href="http://bounceurban.ch/" target="_blank" rel="noreferrer">
                 BounceUrban
               </a>{" "}
               Tanschule, Bern
             </li>
             <li>
               Kursassistenz am{" "}
-              <a href="https://sake.ch/" target="_blank">
+              <a href="https://sake.ch/" target="_blank" rel="noreferrer">
                 SAKE Bildungszentrum
               </a>
               , Bern
@@ -73,7 +86,10 @@ const AboutPage = () => {
           <ul>
             <li>
               Praktika bei Léa Müller -{" "}
-              <a href="Raum für Körperarbeit" target="_blank">Raum für Körperarbeit</a>, Bern
+              <a href="Raum für Körperarbeit" target="_blank" rel="noreferrer">
+                Raum für Körperarbeit
+              </a>
+              , Bern
             </li>
             <li>Praktika bei Swiss Praktikum TCM, Bern</li>
           </ul>

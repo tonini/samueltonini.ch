@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import CookieConsent from "react-cookie-consent"
 
 import Header from "./header"
 import Nav from "./nav"
@@ -33,8 +34,20 @@ const Layout = ({ children }) => {
         <Nav />
         <main class="site-content">{children}</main>
         <Footer />
+
+        <CookieConsent
+          containerClasses="cookie"
+          location="bottom"
+          buttonText="Fort­fah­ren"
+          declineButtonText="Decline"
+          cookieName="gatsby-gdpr-samuel-tonini"
+        >
+          Diese Webseite verwendet Cookies zur Ünterstützung der
+          Benutzerfreundlichkeit. Durch die weitere Nutzung der Website stimmen
+          Sie der Verwendung zu.
+        </CookieConsent>
+        
       </div>
-   
     </>
   )
 }

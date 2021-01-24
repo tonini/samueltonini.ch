@@ -17,7 +17,7 @@ const Inner = styled.div`
 
 const Logo = styled.div`
   margin: 0;
-  padding: 30px;
+  padding: 20px;
 `
 
 const Heading = styled.div`
@@ -64,7 +64,7 @@ const Header = ({ siteTitle}) => {
       </Logo>
       <Heading>
         <h1>Samuel Tonini</h1>
-        <h2>Praxis für Chinesischen Medizin</h2>
+        <h2>Praxis für Chinesische Medizin</h2>
       </Heading>
     </Inner>
   </InnerHeader>

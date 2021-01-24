@@ -114,3 +114,15 @@ ul {
   color: #555;
   font-size: 1em;
 }
+
+.cookie {
+  font-family: Lora;
+  line-height: 1.6;
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.cookie button {
+  background: #eee !important;
+}

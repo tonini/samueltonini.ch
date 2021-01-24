@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Samuel Tonini`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Samuel Tonini - Praxis für Chinesische Medizin`,
+    description: `Samuel Tonini - Praxis für Chinesiche Medizin in Bern. Akupunktur & Tuina`,
     author: `@gatsbyjs`,
+    twitterUsername: `samueltonini`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -42,6 +43,20 @@ module.exports = {
           `Ma Shan Zheng`
         ],
         display: 'swap'
+      }
+    },
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        // googleAnalytics: {
+        //   trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID',
+        //   // Setting this parameter is optional
+        //   anonymize: true
+        // },
+        // facebookPixel: {
+        //   pixelId: 'YOUR_FACEBOOK_PIXEL_ID'
+        // },
+        environments: ['production', 'development']
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
