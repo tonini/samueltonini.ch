@@ -21,6 +21,20 @@ const Menu = styled.nav`
     max-width: 960px;
   }
 
+  @media (max-width: 400px) {
+    ul {
+      text-align: center;
+      display: block;
+    }
+  }
+
+  @media (max-width: 600px) {
+    ul {
+      text-align: center;
+      display: block;
+    }
+  }
+
   ul li {
     margin: 0 30px;
   }
