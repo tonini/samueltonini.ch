@@ -22,7 +22,7 @@ const AboutPage = () => (
       <p>Alle Folgetermine dauern jeweils zwischen 30 und 60 Minuten.</p>
     </div>
     <div class="col">
-      <h2>Terminvereinbarung</h2>
+      <h2 class="left">Terminvereinbarung</h2>
       <p>
         <b>Behandlungszeiten:</b> jeweils Dienstag und Mittwoch 7.30 – 12.30 und
         Samstag nach Absprache.

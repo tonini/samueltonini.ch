@@ -97,6 +97,7 @@ h3 {
 .portrait {
   width: 210px;
   padding-top: 85px;
+  margin: 0 auto;
 }
 
 .portrait img {

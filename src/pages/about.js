@@ -44,26 +44,55 @@ const AboutPage = () => {
             weiterzulernen.{" "}
           </p>
           <p class="center">
-            <span class="chinese-text">"百病生于气也" </span>
+            <span class="chinese-text">"恬惔虚无，真气从之，精神内守，病安从来 《内经素问》" </span>
             <br />
             <span class="from">
               (Huang Di Nei Jing - Su Wen,{" "}
               <a
-                href="https://ctext.org/dictionary.pl?if=en&id=82478"
+                href="https://ctext.org/dictionary.pl?if=en&id=82231"
                 rel="noreferrer"
               >
-                Kapitel 39
+                Kapitel 1
               </a>
               )
             </span>
           </p>
-
+        </div>
+        <div class="col-30">
+          <div class="portrait">
+            <Img fluid={data.file.childImageSharp.fluid} alt="Portrait" />
+          </div>
+          <div class="center">
+            <h3>Samuel Tonini</h3>
+            <p>
+              Dipl. TCM Akupunkteur
+              <br />
+              Dipl. TCM Tuina Therapeut
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="site-half">
+        <div class="col">
           <h2 class="left">Ausbildung</h2>
           <ul>
             <li>2020 Dipl TCM Therapeut Fachrichtung Tuina</li>
             <li>2019 Dipl. TCM Therapeut Fachrichtung Akupunktur</li>
           </ul>
           <br />
+          <h2 class="left">Praktika</h2>
+          <ul>
+            <li>
+              Praktika bei Léa Müller -{" "}
+              <a href="Raum für Körperarbeit" target="_blank" rel="noreferrer">
+                Raum für Körperarbeit
+              </a>
+              , Bern
+            </li>
+            <li>Praktika bei Swiss Praktikum TCM, Bern</li>
+          </ul>
+        </div>
+        <div class="col">
           <h2 class="left">Weitere Tätigkeiten</h2>
           <ul>
             <li>
@@ -81,31 +110,6 @@ const AboutPage = () => {
               , Bern
             </li>
           </ul>
-          <br />
-          <h2 class="left">Praktika</h2>
-          <ul>
-            <li>
-              Praktika bei Léa Müller -{" "}
-              <a href="Raum für Körperarbeit" target="_blank" rel="noreferrer">
-                Raum für Körperarbeit
-              </a>
-              , Bern
-            </li>
-            <li>Praktika bei Swiss Praktikum TCM, Bern</li>
-          </ul>
-        </div>
-        <div class="col-30">
-          <div class="portrait">
-            <Img fluid={data.file.childImageSharp.fluid} alt="Portrait" />
-          </div>
-          <div class="center">
-            <h3>Samuel Tonini</h3>
-            <p>
-              Dipl. TCM Akupunkteur
-              <br />
-              Dipl. TCM Tuina Therapeut
-            </p>
-          </div>
         </div>
       </div>
     </Layout>
