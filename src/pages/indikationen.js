@@ -10,7 +10,7 @@ const IndikationenPage = () => (
     <SEO title="Impressum" />
     <div class="site-half">
       <div class="col">
-        <h1>Anwendungsgebiete der Chinesischen Medizin</h1>
+        <h1>Anwendungsgebiete</h1>
         <p>
           Im folgenden werden Krankheiten und Störungen aufgelistet, die sich
           erfahrungsgemäss häufig effizient mit den Methoden der Chinesischen

@@ -13,7 +13,7 @@ const AboutPage = () => {
       file(relativePath: { eq: "samuel.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 250, maxHeight: 250) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
@@ -44,7 +44,7 @@ const AboutPage = () => {
             weiterzulernen.{" "}
           </p>
           <p class="center">
-            <span class="chinese-text">"恬惔虚无，真气从之，精神内守，病安从来 《内经素问》" </span>
+            <span class="chinese-text">"恬惔虚无，真气从之，精神内守，病安从来“ 《内经素问》 </span>
             <br />
             <span class="from">
               (Huang Di Nei Jing - Su Wen,{" "}
