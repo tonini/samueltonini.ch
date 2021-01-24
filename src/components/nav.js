@@ -63,10 +63,9 @@ const Nav = () => {
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about">Über mich</a></li>
-          {/* <li><a href="/methods">Methoden</a></li> */}
           <li><a href="/therapie">Behandlung</a></li>
           <li><a href="/indikationen">Indikationen</a></li>
-          <li><a href="/costs">Kosten</a></li>
+          <li><a href="/kosten">Kosten</a></li>
           <li><a href="/kontakt">Kontakt</a></li>
         </ul>
         <hr />

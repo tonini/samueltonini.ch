@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const CostsPage = () => (
+const KostenPage = () => (
   <Layout>
     <SEO title="Kosten" />
 
@@ -70,4 +70,4 @@ const CostsPage = () => (
   </Layout>
 )
 
-export default CostsPage
+export default KostenPage
