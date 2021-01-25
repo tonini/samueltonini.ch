@@ -12,19 +12,28 @@ const IndexPage = () => (
       <div class="col">
         <h1>Willkommen</h1>
         <p class="center">
-            <span class="chinese-text">"恬惔虚无，真气从之，精神内守，病安从来“ 《内经素问》 </span>
+          <span class="chinese-text">
+            "恬惔虚无，真气从之，精神内守，病安从来“ 《内经素问》{" "}
+          </span>
+          <br />
+          <span class="from">
+            In Friedlichkeit und Leere, wird das wahre Qi folgen, <br />
+            Essenz und Geist innerlich bewahrt, wird Krankheit sich ausgleichen.
             <br />
-            <span class="from">
-              In Friedlichkeit und Leere, wird das wahre Qi folgen, <br />Essenz und Geist innerlich bewahrt, wird Krankheit sich ausgleichen. <br />(Huang Di Nei Jing - Su Wen,{" "}
-              <a
-                href="https://ctext.org/dictionary.pl?if=en&id=82231"
-                rel="noreferrer"
-              >
-                Kapitel 1
-              </a>
-              )
-            </span>
-          </p>
+            (Huang Di Nei Jing - Su Wen,{" "}
+            <a
+              href="https://ctext.org/dictionary.pl?if=en&id=82231"
+              rel="noreferrer"
+            >
+              Kapitel 1
+            </a>
+            )
+          </span>
+        </p>
+      </div>
+    </div>
+    <div class="site-half">
+      <div class="col">
         <p>
           Den Menschen in seinem individuellen Lebenskontext ganzheitlich zu
           betrachten, zu verstehen und zu behandeln dafür bietet die Chinesische

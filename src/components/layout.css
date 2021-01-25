@@ -30,6 +30,7 @@ body {
 
 .site-half .col {
   width: 50%;
+  padding-bottom: 0px
 }
 
 .site-half .col-30 {
