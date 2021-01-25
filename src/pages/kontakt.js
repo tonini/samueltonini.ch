@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const KontaktPage = () => (
@@ -45,7 +43,8 @@ const KontaktPage = () => (
           style={{ border: 0 }}
           allowfullscreen=""
           aria-hidden="false"
-          tabindex="0"
+
+          title="Samuel Tonini | Praxis für Chinesische Medizin Akupunktur & Tuina / Anmo"
         ></iframe>
       </div>
     </div>

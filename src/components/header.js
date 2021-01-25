@@ -36,11 +36,6 @@ const Heading = styled.div`
   }
 `
 
-const HomeLink = styled(Link)`
-  text-decoration: none;
-  color: #161650;
-`
-
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
     query {
