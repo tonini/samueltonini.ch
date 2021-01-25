@@ -17,18 +17,16 @@ const IndexPage = () => (
           </span>
           <br />
           <span class="from">
-            Quiet peacefulness, absolute emptiness the true qi follows. <br />
-            When essence and spirit are guarded internally, where could a <br />
-            disease come from?
-            <br />
-            (Nei Jing - Su Wen Übersetzung P. Unschuld,{" "}
+            Quiet peacefulness, absolute emptiness the true qi follows. When
+            essence and spirit are guarded internally, <br />
+            where could a disease come from? - {" "}
             <a
               href="https://ctext.org/dictionary.pl?if=en&id=82231"
+              target="_blank"
               rel="noreferrer"
             >
-              Kapitel 1
+              Nei Jing Su Wen
             </a>
-            )
           </span>
         </p>
       </div>
