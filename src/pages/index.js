@@ -17,10 +17,11 @@ const IndexPage = () => (
           </span>
           <br />
           <span class="from">
-            In Friedlichkeit und Leere, wird das wahre Qi folgen, <br />
-            Essenz und Geist innerlich bewahrt, wird Krankheit sich ausgleichen.
+            Quiet peacefulness, absolute emptiness the true qi follows. <br />
+            When essence and spirit are guarded internally, where could a <br />
+            disease come from?
             <br />
-            (Huang Di Nei Jing - Su Wen,{" "}
+            (Nei Jing - Su Wen Übersetzung P. Unschuld,{" "}
             <a
               href="https://ctext.org/dictionary.pl?if=en&id=82231"
               rel="noreferrer"
