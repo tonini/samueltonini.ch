@@ -34,7 +34,6 @@ const Heading = styled.div`
     margin: 0;
     font-weight: 400;
   }
-
 `
 
 const HomeLink = styled(Link)`
@@ -42,32 +41,33 @@ const HomeLink = styled(Link)`
   color: #161650;
 `
 
-const Header = ({ siteTitle}) => {
-
+const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
-  query {
-    file(relativePath: { eq: "logo_hex_555555.png" }) {
-      childImageSharp {
-        fixed(width: 169, height: 164) {
-          ...GatsbyImageSharpFixed_noBase64
+    query {
+      file(relativePath: { eq: "logo_hex_555555.png" }) {
+        childImageSharp {
+          fixed(width: 169, height: 164) {
+            ...GatsbyImageSharpFixed_noBase64
+          }
         }
       }
     }
-  }
-  `)  
+  `)
 
- return(
-   <InnerHeader>
-    <Inner>
-      <Logo>
-         <Img fixed={data.file.childImageSharp.fixed} alt="Logo"/>
-      </Logo>
-      <Heading>
-        <h1>Samuel Tonini</h1>
-        <h2>Praxis für Chinesische Medizin</h2>
-      </Heading>
-    </Inner>
-  </InnerHeader>
+  return (
+    <InnerHeader>
+      <Inner>
+        <Logo>
+          <Link to="/">
+            <Img fixed={data.file.childImageSharp.fixed} alt="Logo" />
+          </Link>
+        </Logo>
+        <Heading>
+          <h1>Samuel Tonini</h1>
+          <h2>Praxis für Chinesische Medizin</h2>
+        </Heading>
+      </Inner>
+    </InnerHeader>
   )
 }
 
@@ -78,6 +78,5 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 }
-
 
 export default Header
