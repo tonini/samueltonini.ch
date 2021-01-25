@@ -16,7 +16,7 @@ const KostenPage = () => (
         <h2 class="left">Tarif</h2>
 
         <p>
-          <b>Stundenansatz:</b> CHF 135.-
+          <b>Stundenansatz:</b> CHF 140.-
           <br />
           <b>Erstkonsultation:</b> 60 bis 90 Minuten
           <br />
@@ -42,7 +42,7 @@ const KostenPage = () => (
         <h2 class="left">Wichtiger Hinweis</h2>
         <p>
           Falls Sie eine Terminvereinbarung nicht einhalten können, melden Sie
-          sich bitte mindestens 24h vorher ab, ansonsten wird der Termin voll
+          sich bitte mindestens 24h vorher ab, ansonsten wird der Termin vollumfänglich
           verrechnet.
         </p>
       </div>

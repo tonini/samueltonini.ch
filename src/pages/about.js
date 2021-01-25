@@ -38,24 +38,10 @@ const AboutPage = () => {
           <p>
             Mit gleichem Interesse wie ich mich vor langer Zeit dem Tanz
             verschrieben habe, widme ich mich nun seit mehreren Jahren intensiv
-            dem Studium der Chinesischen Medizin. Durch die Auseinandersetzung
-            auch mit der chinesischen Sprache ist es mir möglich auf einen
-            grossen Schatz an Wissen zurückzugreifen und kontinuierlich
-            weiterzulernen.{" "}
-          </p>
-          <p class="center">
-            <span class="chinese-text">"恬惔虚无，真气从之，精神内守，病安从来“ 《内经素问》 </span>
-            <br />
-            <span class="from">
-              (Huang Di Nei Jing - Su Wen,{" "}
-              <a
-                href="https://ctext.org/dictionary.pl?if=en&id=82231"
-                rel="noreferrer"
-              >
-                Kapitel 1
-              </a>
-              )
-            </span>
+            dem Studium der Chinesischen Medizin. Auch durch die
+            Auseinandersetzung mit der chinesischen Sprache ist es mir möglich
+            auf einen grossen Schatz an Wissen zurückzugreifen und
+            kontinuierlich weiterzulernen.{" "}
           </p>
         </div>
         <div class="col-30">
@@ -96,11 +82,11 @@ const AboutPage = () => {
           <h2 class="left">Weitere Tätigkeiten</h2>
           <ul>
             <li>
-              Tanzlehrer an der{" "}
+              Tanzlehrer{" "}
               <a href="http://bounceurban.ch/" target="_blank" rel="noreferrer">
                 BounceUrban
               </a>{" "}
-              Tanschule, Bern
+              , Bern
             </li>
             <li>
               Kursassistenz am{" "}

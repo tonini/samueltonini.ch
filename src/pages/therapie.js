@@ -12,11 +12,11 @@ const AboutPage = () => (
       <h1>Informationen zum Behandlungsablauf</h1>
       <p>
         Ihr Erstbesuch dauert ca. 90 Minuten und beinhaltet ein umfassendes
-        Gespräch und anhand der von ihnen beschriebenen Symptomatik, erstelle
+        Gespräch. Anhand der von Ihnen beschriebenen Symptomatik, erstelle
         ich eine TCM-Diagnose. Diese Erstdiagnose ergänze ich mit einer
         Untersuchung ihrer Zunge und ihres Pulses, sowie Abtasten
         unterschiedlicher Meridiane ihres Körpers. Infolge besprechen wir
-        gemeinsam das weitere Therapievorgehen, welches Tuina (manuelle Therapie), Akupunktur, Moxa,
+        gemeinsam das weitere Therapievorgehen, welches Tuina/Anmo (manuelle Therapie), Akupunktur, Moxa,
         Guasha und Schröpfen beinhalten kann.
       </p>
       <p>Alle Folgetermine dauern jeweils zwischen 30 und 60 Minuten.</p>

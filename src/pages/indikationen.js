@@ -12,7 +12,7 @@ const IndikationenPage = () => (
       <div class="col">
         <h1>Anwendungsgebiete</h1>
         <p>
-          Im folgenden werden Krankheiten und Störungen aufgelistet, die sich
+          Im folgenden wird eine Auswahl an Krankheiten und Störungen aufgelistet, die sich
           erfahrungsgemäss häufig effizient mit den Methoden der Chinesischen
           Medizin therapieren lassen.
         </p>
@@ -145,15 +145,6 @@ const IndikationenPage = () => (
         </ul>
       </div>
       <div class="col"></div>
-    </div>
-    <div class="site-half">
-      <div class="col">
-        <p>
-          Eine vollständige Liste kann hier nicht aufgeführt werden, diese soll
-          lediglich auf die vielfältige Wirkungsweise der Chinesischen Medizin
-          hinweisen.
-        </p>
-      </div>
     </div>
   </Layout>
 )
