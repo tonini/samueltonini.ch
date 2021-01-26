@@ -37,7 +37,7 @@ const IndexPage = () => (
           Medizin ein breites Wissen und geeignete Behandlungsmethoden.{" "}
         </p>
         <p>
-          Ich begleite und unterstütze Sie gerne auf ihrem persönliche Weg zu
+          Ich begleite und unterstütze Sie gerne auf ihrem persönlichen Weg zu
           einer besseren Gesundheit und Lebensqualität.
         </p>
       </div>
