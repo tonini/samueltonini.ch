@@ -40,12 +40,18 @@ const KostenPage = () => (
         <h2 class="left">Wichtiger Hinweis</h2>
         <p>
           Falls Sie eine Terminvereinbarung nicht einhalten können, melden Sie
-          sich bitte mindestens 24h vorher ab, ansonsten wird der Termin vollumfänglich
-          verrechnet.
+          sich bitte mindestens 24h vorher ab, ansonsten wird der Termin
+          vollumfänglich verrechnet.
         </p>
       </div>
 
       <div class="col">
+        <h2 class="left">Terminvereinbarung</h2>
+        <p>
+          Jeweils Dienstag und Mittwoch 7.30 – 12.30
+          und Samstag nach Absprache.
+        </p>
+
         <h2 class="left">Krankenkasse</h2>
         <p>
           Ihre Leistungen werden in der Regel bei Vorhandensein einer
