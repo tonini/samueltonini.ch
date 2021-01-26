@@ -28,7 +28,7 @@ const AboutPage = () => {
             anderem auf eine 15 jährige Tätigkeit als Tanzlehrer zurück.{" "}
           </p>
           <p>
-            Der Tanz öffnete mir die Türen zu einem tiefen Verständnis des
+            Der Tanz öffnete mir die Türen zu einem tiefen Verstehen des
             eigenen Körpers. Diese Erfahrung bereichert und unterstützt mein
             Verständnis der Behandlungsmethoden der Chinesischen Medizin, das
             heisst Tuina sowie Akupunktur.
@@ -68,7 +68,7 @@ const AboutPage = () => {
           <ul>
             <li>
               Praktika bei Léa Müller -{" "}
-              <a href="Raum für Körperarbeit" target="_blank" rel="noreferrer">
+              <a href="http://www.xn--raumfrkrperarbeit-5zb5i.ch/" target="_blank" rel="noreferrer">
                 Raum für Körperarbeit
               </a>
               , Bern
