@@ -152,3 +152,15 @@ ul {
 .cookie button {
   background: #eee !important;
 }
+
+.footer-info {
+  padding-top: 15px;
+  padding-right: 20px;
+  float: right;
+}
+
+.emr {
+  padding-top: 10px;
+  padding-left: 20px;
+  float: left;
+}
