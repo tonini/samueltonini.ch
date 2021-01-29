@@ -42,11 +42,11 @@ const Layout = ({ children }) => {
           declineButtonText="Decline"
           cookieName="gatsby-gdpr-samuel-tonini"
         >
-          Diese Webseite verwendet Cookies zur Ünterstützung der
-          Benutzerfreundlichkeit. Durch die weitere Nutzung der Website stimmen
-          Sie der Verwendung zu.
+          Um unsere Webseite für Sie optimal zu gestalten
+          und fortlaufend zu verbessern, verwenden wir Cookies. Durch die
+          weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies
+          zu.
         </CookieConsent>
-        
       </div>
     </>
   )
