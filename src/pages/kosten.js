@@ -14,7 +14,7 @@ const KostenPage = () => (
         <h2 class="left">Tarif</h2>
 
         <p>
-          <b>Stundenansatz:</b> CHF 140.-
+          <b>Stundenansatz:</b> CHF 144.-
           <br />
           <b>Erstkonsultation:</b> 60 bis 90 Minuten
           <br />
