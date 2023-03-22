@@ -48,8 +48,8 @@ const KostenPage = () => (
       <div class="col">
         <h2 class="left">Terminvereinbarung</h2>
         <p>
-          Jeweils Dienstag und Mittwoch 7.30 – 12.30
-          und Samstag nach Absprache.
+          <b>Terminanfrage:</b> Gerne bin ich für Sie per{" "}
+          <a href="mailto:info@samueltonini.ch">E-Mail</a> erreichbar oder telefonisch unter 079 208 44 57.
         </p>
 
         <h2 class="left">Krankenkasse</h2>
