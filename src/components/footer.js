@@ -4,6 +4,8 @@ import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
+import { withPrefix } from 'gatsby'
+
 const FooterInner = styled.footer`
   grid-row-start: 2;
   grid-row-end: 3;
@@ -48,6 +50,7 @@ const Footer = () => {
       </div>
       <div class="footer-info">
         Copyright © {new Date().getFullYear()} Samuel Tonini |{" "}
+        <a rel="noopener noreferrer" href={withPrefix('/Datenschutzerklaerung 2023.pdf')} target="_blank">Datenschutzerklärung</a> |{" "}
         <Link to="/impressum">Impressum</Link>
       </div>
     </FooterInner>
