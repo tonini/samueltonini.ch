@@ -15,9 +15,13 @@ const KontaktPage = () => (
           <br />
           Praxis für Chinesische Medizin
           <br />
+          <br />
+          Zentrum für Lebensenergie
+          <br />
           Hochfeldstrasse 117
           <br />
           3012 Bern
+          <br />
           <br />
           <b>Telefon:</b> 079 208 44 57
           <br />
@@ -45,21 +49,6 @@ const KontaktPage = () => (
           aria-hidden="false"
           title="Samuel Tonini | Praxis für Chinesische Medizin Akupunktur & Tuina / Anmo"
         ></iframe>
-      </div>
-    </div>
-
-    <div class="site-half">
-      <div class="col">
-        <br />
-        <h2 class="left">In Praxisgemeinschaft mit:</h2>
-        <p>
-          <b>Rahel Fankhauser</b>, Dipl. TCM Therapeutin Akupunktur & Tuina
-          <br />
-          <a href="https://momen.ch/" target="_blank" rel="noreferrer">www.momen.ch</a>
-        </p>
-        <p>
-          <b>Rafael Fernandez</b>, Dipl. TCM Therapeut Akupunktur & Tuina
-        </p>
       </div>
     </div>
   </Layout>
